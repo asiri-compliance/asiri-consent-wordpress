@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "asiri-consent/preferences-link",
+  "title": "Asiri: cookie settings link",
+  "category": "widgets",
+  "description": "A link that opens the visitor's cookie choices.",
+  "textdomain": "asiri-consent",
+  "attributes": {
+    "label": { "type": "string", "default": "Cookie settings" }
+  },
+  "supports": {
+    "autoRegister": true,
+    "html": false
+  },
+  "render": "file:./render.php"
+}
